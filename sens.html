@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Fire Sensitivity Settings</title>
+    <link rel="stylesheet" href="sens.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Free Fire Sensitivity Settings</h1>
+        <p>Select your device's RAM to get recommended sensitivity settings:</p>
+        
+        <label for="ram-select">Device RAM:</label>
+        <select id="ram-select">
+            <option value="" disabled selected>Select RAM</option>
+            <option value="2gb">2GB</option>
+            <option value="3gb">3GB</option>
+            <option value="4gb">4GB</option>
+            <option value="6gb">6GB</option>
+            <option value="8gb">8GB+</option>
+        </select>
+
+        <div id="sensitivity-result" class="result">
+            <h2>Recommended Settings</h2>
+            <p>Select your RAM to see the settings.</p>
+        </div>
+    </div>
+    <script src="sens.js"></script>
+</body>
+</html>

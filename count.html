@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown timer</title>
+    <link rel="stylesheet" href="count.css">    
+</head>     
+<body>
+    <div class="timer-container">
+        <h1>Countdown Timer</h1>
+        <div id="timer">00:00:00</div>
+        <div class="controls">
+            <input type="number" id="minutes" placeholder="Enter minutes" min="0">
+            <button onclick="startTimer()">Start</button>
+            <button onclick="stopTimer()">Stop</button>
+            <button onclick="resetTimer()">Reset</button>
+        </div>
+    </div>
+    <script src="count.js"></script>  <!-- Link to the JavaScript file -->
+</body>
+</html>
